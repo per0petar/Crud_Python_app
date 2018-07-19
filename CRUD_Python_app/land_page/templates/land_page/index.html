@@ -1,5 +1,7 @@
 {% extends 'land_page/layout.html' %}
+{% load staticfiles %}
 
 {% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'land_page/style.css' %}" />
 <h3 class="center-align red lighten-3">Hello from Land Page</h3>
 {% endblock %}
